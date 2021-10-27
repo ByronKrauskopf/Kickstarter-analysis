@@ -4,11 +4,13 @@
 
 ### Purpose
 
+The purpose of this project is to provide Louise with an analysis and insights into the outcomes of past Kickstarter campaigns so that she may make more informed decisions about how to maximize the probability of success for her own campaign.
+
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Dates
 
-An analysis was performed based on the date that each campaign belonging to the "theater" parent cateogry was launched. The potential outcomes that were considered for this analysis were successful, failed and canceled. These outcomes were compaired to the month that the campaign was launched in to provide the following result.
+An analysis was performed based on the date that each campaign belonging to the "theater" parent category was launched. The potential outcomes that were considered for this analysis were successful, failed and canceled. These outcomes were compaired to the month that the campaign was launched in to provide the following result.
 
 ![Theater Outcomes vs Launch](/assets/images/Theater_Outcomes_vs_Launch.png)
 
@@ -20,6 +22,7 @@ An analysis was performed based on the initial goal amount of all the campaigns 
 
 ### Challenges and Difficulties Encountered
 
+A difficulty was encountered when performing the analysis of outcomes based on goals. When the number of successful campaigns was calculated for each bucket (column B) a validation of the formulas used was made. This was done by comparing the sum of the successful results against the calculation of all successful plays with goals greater than 0. The results of these two figures should be the same, however in this case the sum of the successful results was 1 less than the calculation of all successful plays with goals greater than 0. This discrepancy was resolved by debugging the formulas used in column B to calulate the number of successful plays. It was discovered that an = was missing from a single formula resulting in one result being missed. With this corrected the validation check matched and the analysis could proceed.
 
 ## Results
 
