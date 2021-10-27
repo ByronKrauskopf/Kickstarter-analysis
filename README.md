@@ -16,7 +16,7 @@ An analysis was performed based on the date that each campaign belonging to the 
 
 An analysis was performed based on the initial goal amount of all the campaigns belonging to the "plays" subcategory. The potential outcomes that were considered for this analysis were successful, failed and canceled. The amounts of the goals were subdivided into 12 buckets for ease of analysis, and the percentage of the respective bucket for each outcome was calculated with the following result. 
 
-![Outcomes vs Goals](/assets/images/Outcomes_vs_Goals) 
+![Outcomes vs Goals](/assets/images/Outcomes_vs_Goals.png) 
 
 ### Challenges and Difficulties Encountered
 
